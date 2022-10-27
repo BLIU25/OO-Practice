@@ -3,7 +3,7 @@ using OOPractice;
 
 namespace OOPracticeTest
 {
-    public class Truck : Car
+    public class Truck : Vehicle
     {
         public Truck(string name, int speed) : base(name, speed)
         {
