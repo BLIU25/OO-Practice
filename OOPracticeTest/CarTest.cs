@@ -1,3 +1,4 @@
+using System;
 using System.Runtime.CompilerServices;
 
 namespace OOPracticeTest
@@ -12,7 +13,8 @@ namespace OOPracticeTest
         public void Should_return_msg_when_speed_up_given_car_name_speed()
         {
             //given
-            Car car = new Car("Cool car", 30);
+            Engine engine = new Engine("gasoline");
+            Car car = new Car("Cool car", engine);
 
             //when
             string msg = car.SpeedUp();

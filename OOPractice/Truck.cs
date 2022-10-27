@@ -1,7 +1,6 @@
 ﻿using System;
-using OOPractice;
 
-namespace OOPracticeTest
+namespace OOPractice
 {
     public class Truck : Vehicle
     {

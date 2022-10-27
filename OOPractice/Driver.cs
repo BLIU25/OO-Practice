@@ -1,6 +1,6 @@
 ﻿using OOPractice;
 
-namespace OOPracticeTest
+namespace OOPractice
 {
     public class Driver
     {
